@@ -4,6 +4,7 @@
         <title>Trip Planner</title>
         <link href='https://api.mapbox.com/mapbox-gl-js/v0.42.1/mapbox-gl.css' rel='stylesheet' />
         <link rel="stylesheet" href="./style.css"><link>
+        <link rel="stylesheet" href="./bootstrap.css"><link>
         <script src="./bundle.js" defer></script>
     </head>
     <body>
@@ -11,12 +12,43 @@
         <div id="map"></div>
         <div id="sidebar" class="container">
             <div id="activities" class="container">
-                <button id="hotels" class="dropbtn">Dropdown</button>
+
+                    <div class="dropdown-menu">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Restaurants
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                            
+                            <div class="dropdown2">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Restaurants
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item" href="#">Action</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                    
+                            <div class="dropdown3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Restaurants
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                          </div>
+                <!-- <button id="hotels" class="dropbtn">Dropdown</button>
                 <!-- <p> -->
-                <button id="restaurants" class="dropbtn">Dropdown</button>
+                <!-- <button id="restaurants" class="dropbtn">Dropdown</button> -->
                 <!-- <p> -->
-                <button id="activities" class="dropbtn">Dropdown</button>
-                <!-- <p> -->
+                <!-- <button id="activities" class="dropbtn">Dropdown</button> -->
+              
             </div>
             <div id="itinerary" class="container"></div>
         </div>
