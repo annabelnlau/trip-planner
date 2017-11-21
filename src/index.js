@@ -17,6 +17,6 @@ const map = new mapboxgl.Map({
 
 // new mapboxgl.Marker(markerDomEl).setLngLat([-74.009, 40.705]).addTo(map);
 
-const marker = buildMarker("Restaurant", [-74.009, 40.705]);
-console.log(marker);
+const marker = buildMarker("restaurants", [-74.009, 40.705]);
+console.log(marker)
 marker.addTo(map);
