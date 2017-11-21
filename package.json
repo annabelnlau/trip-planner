@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-<<<<<<< HEAD
-  "license": "ISC"
-=======
   "license": "ISC",
   "devDependencies": {
     "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "mapbox-gl": "^0.42.1"
   }
->>>>>>> 2d06f86e9712f24ba75f5849b642ed116edc7038
 }
