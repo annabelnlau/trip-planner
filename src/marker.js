@@ -16,3 +16,4 @@ var buildMarker = function (type, coordinatesArray) {
 }
 
 module.exports = buildMarker;
+learn
