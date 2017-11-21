@@ -17,19 +17,40 @@ body {
   height: 4em;
 }
 
-#sidebar {
+.container {
   display: flex;
   flex-direction: column;
+}
+
+#sidebar {
   background-color: #30272d;
   opacity: .9;
   width: 30%;
   height: 100%;
-  z-index: 30;
   position: fixed;
   top: 0;
   right: 0;
   flex: 1;
-  
+}
+
+#activities {
+  background-color: #D2DECF;
+  position: relative;
+  top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  height: 40%;
+}
+
+#itinerary {
+  background-color: #D2DECF;
+  position: relative;
+  top: 6em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  height: 25%;
 }
 
 #map {
