@@ -2,6 +2,7 @@
     box-sizing: border-box
 }
 
+
 body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -19,9 +20,15 @@ body {
 #sidebar {
   display: flex;
   flex-direction: column;
-  width: 4em;
-  background-color: #30272D;
-  opacity: .5;
+  background-color: #30272d;
+  opacity: .9;
+  width: 30%;
+  height: 100%;
+  z-index: 30;
+  position: fixed;
+  top: 0;
+  right: 0;
+  flex: 1;
   
 }
 
